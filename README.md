@@ -1,29 +1,38 @@
-# Assignment 3
 
-This repository contains solutions to **Assignment 3** in C programming.
+# Assignment 5 – Linked List Operations
 
-## Contents
+This assignment contains multiple C++ programs that demonstrate different operations on singly linked lists. Each program focuses on a specific linked list concept.
 
-### Question 1
+## 1. Full Linked List Menu Program
+A complete implementation allowing:
+- Insert at beginning
+- Insert at end
+- Insert before a node
+- Insert after a node
+- Delete from beginning
+- Delete from end
+- Delete a specific node
+- Search for a node
+- Display the list
 
--   Implementation of **Stack operations** (Push, Pop, Peek, Display).
+## 2. Count and Delete All Occurrences
+This program:
+- Inserts values at the end
+- Counts how many times a given value appears
+- Deletes all occurrences of that value
+- Displays the updated list
 
-### Question 2
+## 3. Find the Middle of a Linked List
+Uses the slow–fast pointer technique to find the middle element.
 
--   Program to **Reverse a String using Stack**.
+## 4. Reverse a Linked List
+Reverses the linked list using pointer manipulation and displays the reversed output.
 
-### Question 3
+## How to Compile and Run
+```
+g++ filename.cpp -o output
+./output
+```
 
--   Program to check **Balanced Parentheses using Stack**.
-
-### Question 4
-
--   Program to convert **Infix Expression to Postfix Expression**.
-
-### Question 5
-
--   Program to **Evaluate a Postfix Expression**.
-
-------------------------------------------------------------------------
-
-**Author:** Nishant Bimra
+## Author
+Nishant Bimra
